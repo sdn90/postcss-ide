@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle postcss-ide",
+        "command": "postcss-ide:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "postcss-ide",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "postcss-ide:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
